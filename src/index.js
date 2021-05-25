@@ -4,9 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import * as themes from './theme/schema.json';
+import { setToLocalStorage } from './utils/storage';
+
+const Index = () => {
+  setToLocalStorage('all-themes', themes.default);
+  return(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  )
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Index />
   </React.StrictMode>,
   document.getElementById('root')
 );

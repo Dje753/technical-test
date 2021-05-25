@@ -1,0 +1,28 @@
+{
+    "data" : {
+      "light" : {
+        "id": "01",
+        "name": "Light",
+        "font": "Roboto",
+        "textColor": "#000000",
+        "header": {
+            "background": "#60A5FA"
+        },
+        "bodyPage": {
+            "background": "#FFFFF"
+        }
+      },
+      "dark" : {
+        "id": "02",
+        "name": "Dark",
+        "font": "Roboto",
+        "textColor": "#FFFFFF",
+        "header": {
+            "background": "#1F2937"
+        },
+        "bodyPage": {
+            "background": "#4B5563"
+        }
+      }
+    }
+  }
